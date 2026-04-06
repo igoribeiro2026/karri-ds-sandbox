@@ -1,3 +1,6 @@
 [submodule "ios/CustomerPortal/design-specs"]
 	path = ios/CustomerPortal/design-specs
 	url = https://github.com/igoribeiro2026/design-system-resolver.git
+[submodule "android/CustomerPortal/design-specs"]
+	path = android/CustomerPortal/design-specs
+	url = https://github.com/igoribeiro2026/design-system-resolver.git
