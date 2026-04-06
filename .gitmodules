@@ -4,3 +4,6 @@
 [submodule "android/CustomerPortal/design-specs"]
 	path = android/CustomerPortal/design-specs
 	url = https://github.com/igoribeiro2026/design-system-resolver.git
+[submodule "design-specs"]
+	path = design-specs
+	url = https://github.com/igoribeiro2026/design-system-resolver.git
