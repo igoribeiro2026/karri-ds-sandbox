@@ -52,14 +52,16 @@
 
     /* RADIUS */
     --radius-none: 0px;
-    --radius-xs: 0.125rem;
-    --radius-sm: 0.25rem;
-    --radius-DEFAULT: 0.25rem;
-    --radius-md: 0.375rem;
-    --radius-lg: 0.5rem;
+    --radius-xxs: 0.125rem;
+    --radius-xs: 0.25rem;
+    --radius-sm: 0.375rem;
+    --radius-DEFAULT: 0.375rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.625rem;
     --radius-xl: 0.75rem;
     --radius-2xl: 1rem;
-    --radius-3xl: 1.5rem;
+    --radius-3xl: 1.25rem;
+    --radius-4xl: 1.5rem;
     --radius-full: 9999px;
 
     /* SHADOW */
@@ -117,70 +119,70 @@
     --color-white: rgb(255 255 255);
     --color-black: rgb(0 0 0);
 
-    --color-brand-25: rgb(252 250 255);
-    --color-brand-50: rgb(249 245 255);
-    --color-brand-100: rgb(244 235 255);
-    --color-brand-200: rgb(233 215 254);
-    --color-brand-300: rgb(214 187 251);
-    --color-brand-400: rgb(182 146 246);
-    --color-brand-500: rgb(158 119 237);
-    --color-brand-600: rgb(127 86 217);
-    --color-brand-700: rgb(105 65 198);
-    --color-brand-800: rgb(83 56 158);
-    --color-brand-900: rgb(66 48 125);
-    --color-brand-950: rgb(44 28 95);
+    --color-brand-25: rgb(245 251 255);
+    --color-brand-50: rgb(238 249 255);
+    --color-brand-100: rgb(238 249 255);
+    --color-brand-200: rgb(214 232 242);
+    --color-brand-300: rgb(190 216 229);
+    --color-brand-400: rgb(132 177 199);
+    --color-brand-500: rgb(95 150 178);
+    --color-brand-600: rgb(48 117 152);
+    --color-brand-700: rgb(0 84 126);
+    --color-brand-800: rgb(0 67 101);
+    --color-brand-900: rgb(0 50 76);
+    --color-brand-950: rgb(0 34 50);
 
-    --color-error-25: rgb(255 251 250);
-    --color-error-50: rgb(254 243 242);
-    --color-error-100: rgb(254 228 226);
-    --color-error-200: rgb(254 205 202);
-    --color-error-300: rgb(253 162 155);
-    --color-error-400: rgb(249 112 102);
-    --color-error-500: rgb(240 68 56);
-    --color-error-600: rgb(217 45 32);
-    --color-error-700: rgb(180 35 24);
-    --color-error-800: rgb(145 32 24);
-    --color-error-900: rgb(122 39 26);
-    --color-error-950: rgb(85 22 12);
+    --color-error-25: rgb(255 252 252);
+    --color-error-50: rgb(254 242 242);
+    --color-error-100: rgb(254 226 226);
+    --color-error-200: rgb(254 202 202);
+    --color-error-300: rgb(252 165 165);
+    --color-error-400: rgb(248 113 113);
+    --color-error-500: rgb(239 68 68);
+    --color-error-600: rgb(220 38 38);
+    --color-error-700: rgb(185 28 28);
+    --color-error-800: rgb(153 27 27);
+    --color-error-900: rgb(127 29 29);
+    --color-error-950: rgb(69 10 10);
 
-    --color-warning-25: rgb(255 252 245);
-    --color-warning-50: rgb(255 250 235);
-    --color-warning-100: rgb(254 240 199);
-    --color-warning-200: rgb(254 223 137);
-    --color-warning-300: rgb(254 200 75);
-    --color-warning-400: rgb(253 176 34);
-    --color-warning-500: rgb(247 144 9);
-    --color-warning-600: rgb(220 104 3);
-    --color-warning-700: rgb(181 71 8);
-    --color-warning-800: rgb(147 55 13);
-    --color-warning-900: rgb(122 46 14);
-    --color-warning-950: rgb(78 29 9);
+    --color-warning-25: rgb(255 253 240);
+    --color-warning-50: rgb(254 252 232);
+    --color-warning-100: rgb(254 249 195);
+    --color-warning-200: rgb(254 240 138);
+    --color-warning-300: rgb(253 224 71);
+    --color-warning-400: rgb(250 204 21);
+    --color-warning-500: rgb(234 179 8);
+    --color-warning-600: rgb(202 138 4);
+    --color-warning-700: rgb(161 98 7);
+    --color-warning-800: rgb(133 77 14);
+    --color-warning-900: rgb(113 63 18);
+    --color-warning-950: rgb(66 32 6);
 
-    --color-success-25: rgb(246 254 249);
-    --color-success-50: rgb(236 253 243);
-    --color-success-100: rgb(220 250 230);
-    --color-success-200: rgb(171 239 198);
-    --color-success-300: rgb(117 224 167);
-    --color-success-400: rgb(71 205 137);
-    --color-success-500: rgb(23 178 106);
-    --color-success-600: rgb(7 148 85);
-    --color-success-700: rgb(6 118 71);
-    --color-success-800: rgb(8 93 58);
-    --color-success-900: rgb(7 77 49);
-    --color-success-950: rgb(5 51 33);
+    --color-success-25: rgb(240 255 248);
+    --color-success-50: rgb(240 253 244);
+    --color-success-100: rgb(220 252 231);
+    --color-success-200: rgb(187 247 208);
+    --color-success-300: rgb(134 239 172);
+    --color-success-400: rgb(74 222 128);
+    --color-success-500: rgb(34 197 94);
+    --color-success-600: rgb(22 163 74);
+    --color-success-700: rgb(21 128 61);
+    --color-success-800: rgb(22 101 52);
+    --color-success-900: rgb(20 83 45);
+    --color-success-950: rgb(5 46 22);
 
     --color-gray-25: rgb(253 253 253);
     --color-gray-50: rgb(250 250 250);
     --color-gray-100: rgb(245 245 245);
-    --color-gray-200: rgb(233 234 235);
-    --color-gray-300: rgb(213 215 218);
-    --color-gray-400: rgb(164 167 174);
-    --color-gray-500: rgb(113 118 128);
-    --color-gray-600: rgb(83 88 98);
-    --color-gray-700: rgb(65 70 81);
-    --color-gray-800: rgb(37 43 55);
-    --color-gray-900: rgb(24 29 39);
-    --color-gray-950: rgb(10 13 18);
+    --color-gray-200: rgb(229 229 229);
+    --color-gray-300: rgb(212 212 212);
+    --color-gray-400: rgb(163 163 163);
+    --color-gray-500: rgb(115 115 115);
+    --color-gray-600: rgb(82 82 82);
+    --color-gray-700: rgb(64 64 64);
+    --color-gray-800: rgb(38 38 38);
+    --color-gray-900: rgb(23 23 23);
+    --color-gray-950: rgb(10 10 10);
 
     --color-gray-blue-25: rgb(252 252 253);
     --color-gray-blue-50: rgb(248 249 252);
@@ -494,6 +496,30 @@
     --color-yellow-900: rgb(113 59 18);
     --color-yellow-950: rgb(84 44 13);
 
+    --color-chartreuse-50: rgb(253 255 232);
+    --color-chartreuse-100: rgb(248 255 186);
+    --color-chartreuse-200: rgb(246 255 163);
+    --color-chartreuse-300: rgb(241 255 118);
+    --color-chartreuse-400: rgb(237 255 72);
+    --color-chartreuse-500: rgb(232 255 26);
+    --color-chartreuse-600: rgb(168 185 19);
+    --color-chartreuse-700: rgb(93 102 10);
+    --color-chartreuse-800: rgb(70 77 8);
+    --color-chartreuse-900: rgb(46 51 5);
+    --color-chartreuse-950: rgb(23 26 3);
+
+    --color-wild-sand-50: rgb(246 245 244);
+    --color-wild-sand-100: rgb(237 235 233);
+    --color-wild-sand-200: rgb(218 216 210);
+    --color-wild-sand-300: rgb(200 196 188);
+    --color-wild-sand-400: rgb(181 177 165);
+    --color-wild-sand-500: rgb(163 157 143);
+    --color-wild-sand-600: rgb(142 136 124);
+    --color-wild-sand-700: rgb(120 115 104);
+    --color-wild-sand-800: rgb(99 95 85);
+    --color-wild-sand-900: rgb(77 74 65);
+    --color-wild-sand-950: rgb(56 53 46);
+
     /* LIGHT MODE VARIABLES */
 
     --color-alpha-white: rgb(255 255 255);
@@ -670,8 +696,8 @@
     /* TEXT COLORS */
     --color-text-white: var(--color-white);
     --color-text-primary: var(--color-gray-900);
-    --color-text-secondary: var(--color-gray-700);
-    --color-text-secondary_hover: var(--color-gray-800);
+    --color-text-secondary: var(--color-brand-800);
+    --color-text-secondary_hover: var(--color-brand-900);
     --color-text-tertiary: var(--color-gray-600);
     --color-text-tertiary_hover: var(--color-gray-700);
     --color-text-quaternary: var(--color-gray-500);
@@ -682,7 +708,7 @@
     --color-text-disabled: var(--color-gray-500);
     --color-text-placeholder: var(--color-gray-500);
     --color-text-placeholder_subtle: var(--color-gray-300);
-    --color-text-primary_on-brand: var(--color-white);
+    --color-text-primary_on-brand: var(--color-chartreuse-500);
     --color-text-secondary_on-brand: var(--color-brand-200);
     --color-text-tertiary_on-brand: var(--color-brand-200);
     --color-text-quaternary_on-brand: var(--color-brand-300);
@@ -693,7 +719,7 @@
     --color-text-brand-tertiary_alt: var(--color-brand-600);
 
     /* BORDER COLORS */
-    --color-border-primary: var(--color-gray-300);
+    --color-border-primary: var(--color-wild-sand-100);
     --color-border-secondary: var(--color-gray-200);
     --color-border-secondary_alt: rgb(0 0 0 / 0.08);
     --color-border-tertiary: var(--color-gray-100);
@@ -711,8 +737,8 @@
     --color-fg-secondary_hover: var(--color-gray-800);
     --color-fg-tertiary: var(--color-gray-600);
     --color-fg-tertiary_hover: var(--color-gray-700);
-    --color-fg-quaternary: var(--color-gray-400);
-    --color-fg-quaternary_hover: var(--color-gray-500);
+    --color-fg-quaternary: var(--color-brand-800);
+    --color-fg-quaternary_hover: var(--color-brand-900);
     --color-fg-warning-primary: var(--color-warning-600);
     --color-fg-warning-secondary: var(--color-warning-500);
     --color-fg-success-primary: var(--color-success-600);
@@ -722,7 +748,7 @@
     --color-fg-disabled: var(--color-gray-400);
     --color-fg-disabled_subtle: var(--color-gray-300);
     --color-fg-brand-primary: var(--color-brand-600);
-    --color-fg-brand-primary_alt: var(--color-fg-brand-primary);
+    --color-fg-brand-primary_alt: var(--color-chartreuse-500);
     --color-fg-brand-secondary: var(--color-brand-500);
     --color-fg-brand-secondary_alt: var(--color-fg-brand-secondary);
     --color-fg-brand-secondary_hover: var(--color-brand-600);
@@ -732,11 +758,11 @@
     --color-bg-primary-solid: var(--color-gray-950);
     --color-bg-primary_alt: var(--color-white);
     --color-bg-primary_hover: var(--color-gray-50);
-    --color-bg-secondary: var(--color-gray-50);
-    --color-bg-secondary-solid: var(--color-gray-600);
+    --color-bg-secondary: var(--color-wild-sand-100);
+    --color-bg-secondary-solid: var(--color-chartreuse-700);
     --color-bg-secondary_subtle: var(--color-gray-25);
-    --color-bg-secondary_hover: var(--color-gray-100);
-    --color-bg-secondary_alt: var(--color-gray-50);
+    --color-bg-secondary_hover: var(--color-chartreuse-600);
+    --color-bg-secondary_alt: var(--color-chartreuse-500);
     --color-bg-tertiary: var(--color-gray-100);
     --color-bg-quaternary: var(--color-gray-200);
     --color-bg-error-primary: var(--color-error-50);
@@ -759,7 +785,7 @@
     --color-bg-brand-solid: var(--color-brand-600);
     --color-bg-brand-solid_hover: var(--color-brand-700);
     --color-bg-brand-section: var(--color-brand-800);
-    --color-bg-brand-section_subtle: var(--color-brand-700);
+    --color-bg-brand-section_subtle: var(--color-brand-800);
 
     /* COMPONENT COLORS */
     --color-app-store-badge-border: rgb(166 166 166);
@@ -911,15 +937,15 @@
         --color-gray-25: rgb(250 250 250);
         --color-gray-50: rgb(247 247 247);
         --color-gray-100: rgb(240 240 241);
-        --color-gray-200: rgb(236 236 237);
-        --color-gray-300: rgb(206 207 210);
-        --color-gray-400: rgb(148 151 156);
-        --color-gray-500: rgb(133 136 142);
-        --color-gray-600: rgb(97 101 108);
-        --color-gray-700: rgb(55 58 65);
-        --color-gray-800: rgb(34 38 47);
-        --color-gray-900: rgb(19 22 27);
-        --color-gray-950: rgb(12 14 18);
+        --color-gray-200: rgb(229 229 229);
+        --color-gray-300: rgb(212 212 212);
+        --color-gray-400: rgb(163 163 163);
+        --color-gray-500: rgb(115 115 115);
+        --color-gray-600: rgb(82 82 82);
+        --color-gray-700: rgb(64 64 64);
+        --color-gray-800: rgb(38 38 38);
+        --color-gray-900: rgb(23 23 23);
+        --color-gray-950: rgb(10 10 10);
 
         --color-utility-blue-50: var(--color-blue-950);
         --color-utility-blue-100: var(--color-blue-900);
@@ -1154,9 +1180,9 @@
         --color-bg-primary_alt: var(--color-bg-secondary);
         --color-bg-primary_hover: var(--color-gray-800);
         --color-bg-secondary: var(--color-gray-900);
-        --color-bg-secondary-solid: var(--color-gray-600);
+        --color-bg-secondary-solid: var(--color-chartreuse-700);
         --color-bg-secondary_subtle: var(--color-gray-900);
-        --color-bg-secondary_hover: var(--color-gray-800);
+        --color-bg-secondary_hover: var(--color-chartreuse-600);
         --color-bg-tertiary: var(--color-gray-800);
         --color-bg-quaternary: var(--color-gray-700);
         --color-bg-error-primary: var(--color-error-950);
@@ -1175,7 +1201,7 @@
         --color-bg-brand-primary: var(--color-brand-500);
         --color-bg-brand-primary_alt: var(--color-bg-secondary);
         --color-bg-brand-secondary: var(--color-brand-600);
-        --color-bg-secondary_alt: var(--color-bg-primary);
+        --color-bg-secondary_alt: var(--color-white);
         --color-bg-brand-solid: var(--color-brand-600);
         --color-bg-brand-solid_hover: var(--color-brand-500);
         --color-bg-overlay: var(--color-gray-800);
