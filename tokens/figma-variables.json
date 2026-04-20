@@ -1,0 +1,203 @@
+{
+  "_meta": {
+    "source": "Figma file: Karri DS Sandbox",
+    "figmaFileKey": "exW1CSY9rGEY4qzthBOFVM",
+    "figmaNodeId": "1:1183",
+    "figmaUrl": "https://www.figma.com/design/exW1CSY9rGEY4qzthBOFVM/Karri-DS-Sandbox?node-id=1-1183",
+    "extractedAt": null,
+    "note": "TODO: Re-extract using Figma MCP get_variable_defs tool with file key exW1CSY9rGEY4qzthBOFVM. Open the Figma file in the desktop app and select the variable frame/panel before running the tool."
+  },
+  "typography": {
+    "_note": "Font family confirmed as DM Sans. Run Figma MCP to get exact size/weight/line-height tokens.",
+    "fontFamily": {
+      "body": "DM Sans",
+      "display": "DM Sans",
+      "mono": "TODO: confirm mono font from Figma"
+    },
+    "fontSize": {
+      "_note": "TODO: extract from Figma — values below are base defaults from design-system-base; update with Figma actuals",
+      "xs": "12px",
+      "sm": "14px",
+      "md": "16px",
+      "lg": "18px",
+      "xl": "20px",
+      "display-xs": "24px",
+      "display-sm": "30px",
+      "display-md": "36px",
+      "display-lg": "48px",
+      "display-xl": "60px",
+      "display-2xl": "72px"
+    },
+    "lineHeight": {
+      "_note": "TODO: extract from Figma",
+      "xs": "18px",
+      "sm": "20px",
+      "md": "24px",
+      "lg": "28px",
+      "xl": "30px",
+      "display-xs": "32px",
+      "display-sm": "38px",
+      "display-md": "44px",
+      "display-lg": "60px",
+      "display-xl": "72px",
+      "display-2xl": "90px"
+    },
+    "fontWeight": {
+      "_note": "TODO: extract from Figma",
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "letterSpacing": {
+      "_note": "TODO: extract from Figma",
+      "display-md": "-0.72px",
+      "display-lg": "-0.96px",
+      "display-xl": "-1.2px",
+      "display-2xl": "-1.44px"
+    }
+  },
+  "colors": {
+    "_note": "TODO: extract all color primitives and semantic tokens from Figma variable collections. Values below are placeholders — update with exact hex/rgb values from Figma.",
+    "primitives": {
+      "brand": {
+        "_note": "TODO: replace with Karri brand color scale from Figma",
+        "25": "TODO",
+        "50": "TODO",
+        "100": "TODO",
+        "200": "TODO",
+        "300": "TODO",
+        "400": "TODO",
+        "500": "TODO",
+        "600": "TODO",
+        "700": "TODO",
+        "800": "TODO",
+        "900": "TODO",
+        "950": "TODO"
+      },
+      "gray": {
+        "_note": "TODO: confirm gray palette from Figma",
+        "25": "TODO",
+        "50": "TODO",
+        "100": "TODO",
+        "200": "TODO",
+        "300": "TODO",
+        "400": "TODO",
+        "500": "TODO",
+        "600": "TODO",
+        "700": "TODO",
+        "800": "TODO",
+        "900": "TODO",
+        "950": "TODO"
+      },
+      "error": {
+        "_note": "TODO: confirm error palette from Figma",
+        "25": "TODO", "50": "TODO", "100": "TODO", "200": "TODO",
+        "300": "TODO", "400": "TODO", "500": "TODO", "600": "TODO",
+        "700": "TODO", "800": "TODO", "900": "TODO", "950": "TODO"
+      },
+      "warning": {
+        "_note": "TODO: confirm warning palette from Figma",
+        "25": "TODO", "50": "TODO", "100": "TODO", "200": "TODO",
+        "300": "TODO", "400": "TODO", "500": "TODO", "600": "TODO",
+        "700": "TODO", "800": "TODO", "900": "TODO", "950": "TODO"
+      },
+      "success": {
+        "_note": "TODO: confirm success palette from Figma",
+        "25": "TODO", "50": "TODO", "100": "TODO", "200": "TODO",
+        "300": "TODO", "400": "TODO", "500": "TODO", "600": "TODO",
+        "700": "TODO", "800": "TODO", "900": "TODO", "950": "TODO"
+      }
+    },
+    "semantic": {
+      "_note": "TODO: extract semantic/alias tokens from Figma variable collections (light and dark mode values)",
+      "light": {
+        "text": {
+          "primary": "TODO",
+          "secondary": "TODO",
+          "tertiary": "TODO",
+          "quaternary": "TODO",
+          "disabled": "TODO",
+          "placeholder": "TODO",
+          "brand-primary": "TODO",
+          "brand-secondary": "TODO",
+          "error-primary": "TODO"
+        },
+        "border": {
+          "primary": "TODO",
+          "secondary": "TODO",
+          "brand": "TODO",
+          "error": "TODO",
+          "disabled": "TODO"
+        },
+        "foreground": {
+          "primary": "TODO",
+          "secondary": "TODO",
+          "tertiary": "TODO",
+          "quaternary": "TODO",
+          "brand-primary": "TODO",
+          "error-primary": "TODO"
+        },
+        "background": {
+          "primary": "TODO",
+          "secondary": "TODO",
+          "tertiary": "TODO",
+          "brand-solid": "TODO",
+          "brand-solid-hover": "TODO",
+          "error-solid": "TODO"
+        }
+      },
+      "dark": {
+        "_note": "TODO: extract dark mode overrides from Figma variable collections"
+      }
+    }
+  },
+  "spacing": {
+    "_note": "TODO: extract spacing scale from Figma if custom values exist; base scale uses 4px unit",
+    "base": "4px",
+    "scale": {
+      "1": "4px",
+      "2": "8px",
+      "3": "12px",
+      "4": "16px",
+      "5": "20px",
+      "6": "24px",
+      "8": "32px",
+      "10": "40px",
+      "12": "48px",
+      "16": "64px",
+      "20": "80px",
+      "24": "96px"
+    }
+  },
+  "borderRadius": {
+    "_note": "TODO: confirm border radius values from Figma",
+    "none": "0px",
+    "xs": "2px",
+    "sm": "4px",
+    "md": "6px",
+    "lg": "8px",
+    "xl": "12px",
+    "2xl": "16px",
+    "3xl": "24px",
+    "full": "9999px"
+  },
+  "shadows": {
+    "_note": "TODO: confirm elevation/shadow tokens from Figma",
+    "xs": "0px 1px 2px rgba(10, 13, 18, 0.05)",
+    "sm": "0px 1px 3px rgba(10, 13, 18, 0.1), 0px 1px 2px -1px rgba(10, 13, 18, 0.1)",
+    "md": "0px 4px 6px -1px rgba(10, 13, 18, 0.1), 0px 2px 4px -2px rgba(10, 13, 18, 0.06)",
+    "lg": "0px 12px 16px -4px rgba(10, 13, 18, 0.08), 0px 4px 6px -2px rgba(10, 13, 18, 0.03), 0px 2px 2px -1px rgba(10, 13, 18, 0.04)",
+    "xl": "0px 20px 24px -4px rgba(10, 13, 18, 0.08), 0px 8px 8px -4px rgba(10, 13, 18, 0.03), 0px 3px 3px -1.5px rgba(10, 13, 18, 0.04)",
+    "2xl": "0px 24px 48px -12px rgba(10, 13, 18, 0.18), 0px 4px 4px -2px rgba(10, 13, 18, 0.04)",
+    "3xl": "0px 32px 64px -12px rgba(10, 13, 18, 0.14), 0px 5px 5px -2.5px rgba(10, 13, 18, 0.04)"
+  },
+  "_howToUpdate": {
+    "step1": "Open the Figma file in the Figma desktop app: https://www.figma.com/design/exW1CSY9rGEY4qzthBOFVM/Karri-DS-Sandbox?node-id=1-1183",
+    "step2": "Select a layer/frame in the variables panel",
+    "step3": "Run: mcp__figma__get_variable_defs with fileKey=exW1CSY9rGEY4qzthBOFVM and nodeId=1:1183",
+    "step4": "Replace TODO values in this file with actual values from the Figma response",
+    "step5": "Update src/styles/theme.css --color-brand-* variables with the new palette",
+    "step6": "Run npm run build to verify no breaking changes"
+  }
+}
